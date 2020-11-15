@@ -1,0 +1,170 @@
+name: ghibli_film_app
+description: A Ghibli film listing application
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  http: ^0.12.2
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/arrietty.png
+    - assets/arrietty_poster.jpg
+    - assets/castle_in_the_sky.jpg
+    - assets/castle_in_the_sky_poster.jpg
+    - assets/cover.jpg
+    - assets/from_up_on_poppy_hill.jpg
+    - assets/from_up_on_poppy_hill_poster.jpg
+    - assets/grave_of_the_fireflies.jpg
+    - assets/grave_of_the_fireflies_poster.jpg
+    - assets/howls_moving_castle.jpg
+    - assets/howls_moving_castle_poster.jpg
+    - assets/icon_image.png
+    - assets/ic_totoro.png
+    - assets/kikis_delivery_service.jpg
+    - assets/kikis_delivery_service_poster.jpg
+    - assets/location_bamboo_forest.jpg
+    - assets/location_bathhouse.jpg
+    - assets/location_forest.png
+    - assets/location_fujimotos_underwater_harbor.jpg
+    - assets/location_gutiokipanja.jpg
+    - assets/location_himawari_nursery_school.jpg
+    - assets/location_ingary.jpg
+    - assets/location_irontown.jpg
+    - assets/location_koriko.jpg
+    - assets/location_laputa.jpg
+    - assets/location_pazus_mines.png
+    - assets/location_piccolo_spa.jpg
+    - assets/location_satsukis_school_house.jpg
+    - assets/location_shizukus_apartment.jpg
+    - assets/location_tedis.jpg
+    - assets/location_the_cat_kingdom.png
+    - assets/location_the_marsh_house.jpg
+    - assets/location_ursulas_log_cabin.jpg
+    - assets/location_zenibas_cottage.png
+    - assets/my_neighbors_the_yamadas.jpg
+    - assets/my_neighbors_the_yamadas_poster.jpg
+    - assets/my_neighbor_totoro.jpg
+    - assets/my_neighbor_totoro_poster.jpg
+    - assets/only_yesterday.jpg
+    - assets/only_yesterday_poster.jpg
+    - assets/pom_poko.jpg
+    - assets/pom_poko_poster.png
+    - assets/pom_poko_poster.jpg
+    - assets/ponyo.jpg
+    - assets/ponyo_poster.jpg
+    - assets/porco_rosso.jpg
+    - assets/porco_rosso_poster.jpg
+    - assets/portrait_ashitaka.jpg
+    - assets/portrait_baron_humbert_von_gikkingen.png
+    - assets/portrait_cat_bus.jpg
+    - assets/portrait_catbus.jpg
+    - assets/portrait_cat_king.jpg
+    - assets/portrait_colonel_muska.jpg
+    - assets/portrait_eboshi.png
+    - assets/portrait_gonza.jpg
+    - assets/portrait_granny.jpg
+    - assets/portrait_haru.jpg
+    - assets/portrait_hii_sama.jpg
+    - assets/portrait_jigo.jpg
+    - assets/portrait_jiji.png
+    - assets/portrait_kanta_ogaki.jpg
+    - assets/portrait_kohroku.jpg
+    - assets/portrait_mei_kusakabe.jpg
+    - assets/portrait_moro.png
+    - assets/portrait_muta.jpg
+    - assets/portrait_natori.jpg
+    - assets/portrait_niya.jpg
+    - assets/portrait_porco_rosso.jpg
+    - assets/portrait_renaldo_moon_aka_moon_aka_muta.png
+    - assets/portrait_san.jpg
+    - assets/portrait_satsuki_kusakabe.png
+    - assets/portrait_shishigami.jpg
+    - assets/portrait_sosuke.png
+    - assets/portrait_tatsuo_kusakabe.jpg
+    - assets/portrait_totoro.gif
+    - assets/portrait_yakul.png
+    - assets/portrait_yasuko_kusakabe.png
+    - assets/portrait_yuki.jpg
+    - assets/princess_mononoke.jpg
+    - assets/princess_mononoke_poster.jpg
+    - assets/spirited_away.jpg
+    - assets/spirited_away_poster.jpg
+    - assets/tales_from_earthsea.jpg
+    - assets/tales_from_earthsea_poster.jpg
+    - assets/the_cat_returns.jpg
+    - assets/the_cat_returns_poster.jpg
+    - assets/the_tale_of_the_princess_kaguya.jpg
+    - assets/the_tale_of_the_princess_kaguya_poster.jpg
+    - assets/the_wind_rises.jpg
+    - assets/the_wind_rises_poster.jpg
+    - assets/when_marnie_was_there.jpg
+    - assets/when_marnie_was_there_poster.jpg
+    - assets/whisper_of_the_heart.jpg
+    - assets/whisper_of_the_heart_poster.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

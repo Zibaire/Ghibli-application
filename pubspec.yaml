@@ -141,6 +141,11 @@ flutter:
     - assets/when_marnie_was_there_poster.jpg
     - assets/whisper_of_the_heart.jpg
     - assets/whisper_of_the_heart_poster.jpg
+    - assets/food_ghibli.jpg
+    - assets/inspiration_ghibli.jpg
+    - assets/places_ghibli.jpg
+    - assets/recipes_ghibli.jpg
+    - assets/movies_ghibli.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
